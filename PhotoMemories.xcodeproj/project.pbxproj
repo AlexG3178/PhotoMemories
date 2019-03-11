@@ -11,6 +11,9 @@
 		9B1993A322305273001D9220 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1993A222305273001D9220 /* ViewController.swift */; };
 		9B1993A522305274001D9220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B1993A422305274001D9220 /* Assets.xcassets */; };
 		9B1993A822305274001D9220 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B1993A622305274001D9220 /* Main.storyboard */; };
+		9B1993B6223058F9001D9220 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1993B4223058F9001D9220 /* Photo.swift */; };
+		9B1993B7223058F9001D9220 /* Photo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B1993B5223058F9001D9220 /* Photo.xib */; };
+		9B19DCC52236EBAC006DE8AF /* black.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B19DCC42236EBAC006DE8AF /* black.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		9B1993A722305274001D9220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B1993A922305274001D9220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B1993AA22305274001D9220 /* PhotoMemories.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PhotoMemories.entitlements; sourceTree = "<group>"; };
+		9B1993B4223058F9001D9220 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		9B1993B5223058F9001D9220 /* Photo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Photo.xib; sourceTree = "<group>"; };
+		9B19DCC42236EBAC006DE8AF /* black.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = black.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +63,11 @@
 				9B1993A222305273001D9220 /* ViewController.swift */,
 				9B1993A422305274001D9220 /* Assets.xcassets */,
 				9B1993A622305274001D9220 /* Main.storyboard */,
+				9B1993B4223058F9001D9220 /* Photo.swift */,
+				9B1993B5223058F9001D9220 /* Photo.xib */,
 				9B1993A922305274001D9220 /* Info.plist */,
 				9B1993AA22305274001D9220 /* PhotoMemories.entitlements */,
+				9B19DCC42236EBAC006DE8AF /* black.mp4 */,
 			);
 			path = PhotoMemories;
 			sourceTree = "<group>";
@@ -121,6 +130,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B1993B7223058F9001D9220 /* Photo.xib in Resources */,
+				9B19DCC52236EBAC006DE8AF /* black.mp4 in Resources */,
 				9B1993A522305274001D9220 /* Assets.xcassets in Resources */,
 				9B1993A822305274001D9220 /* Main.storyboard in Resources */,
 			);
@@ -133,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B1993B6223058F9001D9220 /* Photo.swift in Sources */,
 				9B1993A322305273001D9220 /* ViewController.swift in Sources */,
 				9B1993A122305273001D9220 /* AppDelegate.swift in Sources */,
 			);
